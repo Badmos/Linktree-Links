@@ -6,7 +6,7 @@ There are two ways to run this code. The code has been deployed and hosted as a 
 - Ensure to have Node.js installed
 - Clone this repository
 - Navigate to the root directory
-- Run: ```bash node index.js```
+- Run: ```node index.js```
 - Go to an HTTP client and use ```http://localhost:9000/``` as the base URL.
 
 
