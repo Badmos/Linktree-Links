@@ -29,8 +29,7 @@ There are two ways to run this code. The code has been deployed and hosted as a 
   - Payload for a "music" link: {
     "link": "www.linktr.ee" ==> String
     "email": "test@linktr.ee", ==> String, must be a valid email
-    "platform": "Spotify" ===> String. Possible platform values are "Spotify", "Apple", "Music", "Soundcloud", "YouTube Music", "Deezer", "Tidal", "Bandcamp"
-    
+    "platform": "Spotify" ===> String. Possible platform values are "Spotify", "Apple", "Music", "Soundcloud", "YouTube Music", "Deezer", "Tidal", "Bandcamp"   
    }
 - Fetch link by userId: ```http://localhost:9000/link/:userId?type=:linkType``` Possible linkType values include: "classic", "shows", or "music". userId can be gotten from the response body of a newly created link
   - Endpoint: ```/link/:userId?type=:linkType```
